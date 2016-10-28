@@ -1,0 +1,117 @@
+h3 {
+	color:red;
+	font-size:2.5em;
+}
+
+#menu a {
+	color:black;
+}
+#menu i{
+	padding-right:5px;
+}
+#menu ul {
+	display:block;
+	padding:0;
+}
+#menu li {
+	float:left;
+	display:block;
+	background-color:#eeeeee;
+	width:85px;
+	text-align:center;
+	padding:3px;
+}
+#menu li:hover {
+	background-color:red;
+	
+}
+
+header {
+	clear:both
+
+}
+
+#main{
+	background-color:linen;
+	width:90%;
+	border:solid linen;
+}	
+#userTable{
+	width:850px;
+}
+/*#userTable thread tr{
+	background-color:black;
+	color:white;
+	}*/
+
+/*#userTable tbody tr:nth:child(odd){
+	background-color:#cccccc;
+	}*/
+
+/*#userTable tbody tr:nth-child(even){
+	background-color:#eeeeee;
+}	*/
+
+#userTable input{
+	font:6px Arial, sans-serif;
+}
+
+.tdButton:hover{
+	background-color:#aaaaaa;
+	color:red;
+}
+/* clicking a tr does nothing yet
+#userTable tr:hover {
+	background-color:#888888;
+}
+*/
+/*#userTable tbody tr:header{
+	background-color:#888888;
+}*/
+.disabled{
+	color:blue;
+}
+
+.td {
+	padding:5px;
+}
+.td_small{
+	min-width:25px;
+	max-width:25px;
+
+}
+.td_medium{
+	min-width:75x;
+	max-width:100px;
+}
+
+.td_large{
+	min-width:100px;
+	max-width:200px;
+}
+.centred{
+	text-align:center;
+}
+
+
+footer {
+	vertical-align:bottom;
+	background-color:#eeeeee;
+	width:590%;
+	height:50px;
+}
+#footerdiv{
+	width:100%;
+	height:100%;
+	vertical-align:bottom;
+	
+}
+#dialogDiv{
+	display:none;
+}
+#dialogAdd{
+	display:none; /* this makes sure that the dialog box is hidden and will only appear when 'Main' is clicked on */
+}
+.ui-widget {
+	font-size:15px;
+}
